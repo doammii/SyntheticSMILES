@@ -1,0 +1,28 @@
+Tox21 preparation summary
+======================================================================
+
+molecules parsed : 7823
+assays           : 12
+
+Per-assay imbalance and BRENK alert enrichment
+assay                 n    pos   pos%     1:x     OR          p  frags
+SR-HSE             6460    372    5.8    16.4   2.07   1.62e-10     13
+SR-ARE             5825    942   16.2     5.2   1.72   1.70e-13    147
+SR-p53             6767    423    6.2    15.0   1.50   1.14e-04     40
+SR-ATAD5           7065    264    3.7    25.8   1.42   7.80e-03     25
+NR-PPAR-gamma      6443    186    2.9    33.6   1.37   4.27e-02     10
+NR-ER-LBD          6948    349    5.0    18.9   1.28   3.06e-02      0
+NR-Aromatase       5815    300    5.2    18.4   1.15   2.82e-01     16
+NR-AhR             6542    768   11.7     7.5   1.13   1.21e-01     95
+SR-MMP             5804    918   15.8     5.3   1.12   1.18e-01    105
+NR-ER              6186    791   12.8     6.8   1.00   1.00e+00      6
+NR-AR-LBD          6751    237    3.5    27.5   0.91   4.64e-01      0
+NR-AR              7258    308    4.2    22.6   0.70   2.20e-03      0
+
+Reading this table:
+  OR > 1 and small p  -> alerts carry label signal; alert-conditioned
+                         generation is expected to help here.
+  OR ~ 1              -> neutral assay.
+  OR < 1              -> alerts are DEPLETED among actives; these assays
+                         are negative controls - alert conditioning should
+                         NOT help, and if it appears to, something is wrong.

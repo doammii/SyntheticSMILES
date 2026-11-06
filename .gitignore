@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
+out/
+*.pt
+
+# Generated molecules are regenerated locally, not published.
+generated/*.csv

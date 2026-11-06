@@ -1,0 +1,3 @@
+Smoke test: fragment retained in 3/4
+고유 생성 분자: 4,638개
+수율 측정 시간: 1분 30.752초

@@ -1,0 +1,8 @@
+torch
+simpletransformers
+transformers
+rdkit
+pandas
+numpy
+scikit-learn
+scipy
