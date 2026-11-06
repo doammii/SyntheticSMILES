@@ -1,0 +1,5 @@
+,,sensitivity,sensitivity,specificity,specificity,balanced_accuracy,balanced_accuracy,mcc,mcc,auroc,auroc,auprc,auprc
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+mode,condition,,,,,,,,,,,,
+at_0.5,llamol,0.6861,0.0165,0.9814,0.0034,0.8338,0.0098,0.7381,0.0224,0.9101,0.0086,0.8235,0.0129
+at_valid_threshold,llamol,0.6565,0.0288,0.9897,0.0049,0.8231,0.0142,0.7462,0.0243,0.9101,0.0086,0.8235,0.0129

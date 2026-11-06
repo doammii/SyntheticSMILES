@@ -1,0 +1,14 @@
+fragment,alert
+C=CC=O,Michael_acceptor_1
+C=CC(=O)O,Michael_acceptor_1
+C=C(C)C(=O)[O],Michael_acceptor_1
+C/C(=C\C)C(=O)O,Michael_acceptor_1
+C=CC(=O)[O],Michael_acceptor_1
+C=CC(N)=O,Michael_acceptor_1
+C=C/C=O,Michael_acceptor_1
+C/C(C)=C/C(=O)O,Michael_acceptor_1
+CC(=O)/C(=C\O)C,Michael_acceptor_1
+C=C(C)C(=O)O,Michael_acceptor_1
+C/C=C(\C)C(=O)C,Michael_acceptor_1
+C/C=C/C=O,Michael_acceptor_1
+CC(C)=CC(=O)O,Michael_acceptor_1
