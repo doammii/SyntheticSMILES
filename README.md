@@ -24,7 +24,7 @@ The [earlier preprint](https://doi.org/10.21203/rs.3.rs-6432369/v1) applied augm
 | `analysis/aggregate.py` | Aggregation of raw results across seeds. |
 | `data/` | Tox21 input CSV. |
 | `prepared/` | Prepared assays, alert-enrichment results, and fragments. |
-| `generated/` | Local output directory for generated molecules; CSVs are **not included**. |
+| `generated/` | Generated molecules used for the LLaMol condition. |
 | `results/raw/` | Per-run raw and summary CSVs for all 240 training runs. |
 | `docs/` | Supporting experimental notes. |
 
@@ -45,7 +45,7 @@ For generation, clone the [LLaMol repository](https://github.com/Fraunhofer-SCAI
    call scripts\run_stage2.bat
    ```
 
-2. From the **LLaMol repository directory**, generate molecules locally (substitute the path to your SyntheticSMILES checkout):
+2. Optional, to regenerate the molecules in `generated/`. From the **LLaMol repository directory** (substitute the path to your SyntheticSMILES checkout):
 
    ```bat
    call "C:\path\to\SyntheticSMILES\scripts\run_generate.bat"
@@ -58,7 +58,7 @@ For generation, clone the [LLaMol repository](https://github.com/Fraunhofer-SCAI
    python analysis/aggregate.py
    ```
 
-The included `results/raw/` files are the reported experimental results. **Generated-molecule CSVs are not distributed** with this release; re-running the LLaMol condition requires generating them locally first.
+The included `results/raw/` files are the reported experimental results, and the CSVs in `generated/` are the generated molecules used to produce them.
 
 ## Data and license
 
