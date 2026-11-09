@@ -4,6 +4,3 @@ __pycache__/
 __MACOSX/
 out/
 *.pt
-
-# Generated molecules are regenerated locally, not published.
-generated/*.csv
